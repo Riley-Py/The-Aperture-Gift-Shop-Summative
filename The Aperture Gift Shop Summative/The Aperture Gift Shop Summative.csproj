@@ -86,5 +86,8 @@
   <ItemGroup>
     <None Include="Resources\Audio - DownloadGamingSFX.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y2Mate.is - Receipt Printer - Sound Effect HD-xJSu_FkudNc-160k-1645661509423.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
