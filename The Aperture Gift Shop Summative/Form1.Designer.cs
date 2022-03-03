@@ -366,9 +366,10 @@
             // 
             // receiptLabel
             // 
+            this.receiptLabel.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.receiptLabel.Location = new System.Drawing.Point(312, 178);
             this.receiptLabel.Name = "receiptLabel";
-            this.receiptLabel.Size = new System.Drawing.Size(227, 246);
+            this.receiptLabel.Size = new System.Drawing.Size(237, 246);
             this.receiptLabel.TabIndex = 29;
             this.receiptLabel.Text = "       ";
             // 

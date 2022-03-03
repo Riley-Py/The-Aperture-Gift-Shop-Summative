@@ -18,24 +18,24 @@ namespace The_Aperture_Gift_Shop_Summative
     {
         //Global Variables to store necessary values used many times
 
-        int itemCompanionCube1;
-        int itemTurrets1;
-        int itemPersonalityCores1;
+        int itemCompanionCube1 = 0;
+        int itemTurrets1 = 0;
+        int itemPersonalityCores1 = 0;
 
         double costCompanionCube1 = 10.50;
         double costTurrets1 = 5.50;
         double costPersonalityCores1 = 15.99;
 
-        double calculateCompanion;
-        double calculateTurret;
-        double calculateCores;
+        double calculateCompanion = 0;
+        double calculateTurret = 0;
+        double calculateCores = 0;
 
-        double subTotal;
-        double taxAmount;
-        double total;
+        double subTotal = 0;
+        double taxAmount = 0;
+        double total = 0;
 
-        double amountTendered;
-        double changeOwed;
+        double amountTendered = 0;
+        double changeOwed = 0;
 
         //Initates Sounds
 
@@ -178,7 +178,7 @@ namespace The_Aperture_Gift_Shop_Summative
             string tab = "      ";
             receiptLabel.Visible = true;
             
-            receiptLabel.Text += $"{tab}{tab}Aperture Gift Shop\n";
+            receiptLabel.Text += $"{tab}Aperture Gift Shop\n";
             receiptLabel.Refresh();
 
             print.Play();
@@ -257,6 +257,23 @@ namespace The_Aperture_Gift_Shop_Summative
 
             outputChange.Text = "    ";
             outputChange.BackColor = Color.White;
+
+            //Resets Variables to 0
+
+            subTotal = 0;
+            taxAmount = 0;
+            total = 0;
+
+            itemCompanionCube1 = 0;
+            itemPersonalityCores1 = 0;
+            itemTurrets1 = 0;
+
+            amountTendered = 0;
+            changeOwed = 0;
+
+            calculateCompanion = 0;
+            calculateCores = 0;
+            calculateTurret = 0;
 
 
         }
