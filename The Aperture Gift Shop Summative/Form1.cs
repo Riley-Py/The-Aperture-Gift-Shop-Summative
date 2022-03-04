@@ -178,7 +178,7 @@ namespace The_Aperture_Gift_Shop_Summative
             string tab = "      ";
             receiptLabel.Visible = true;
             
-            receiptLabel.Text += $"{tab}Aperture Gift Shop\n";
+            receiptLabel.Text += $"  Aperture Gift Shop\n";
             receiptLabel.Refresh();
 
             print.Play();
@@ -199,11 +199,11 @@ namespace The_Aperture_Gift_Shop_Summative
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
-            receiptLabel.Text += $"\n{tab}Tax:{tab}{taxAmount.ToString("C")}";
+            receiptLabel.Text += $"\n{tab}Tax:{tab}     {taxAmount.ToString("C")}";
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
-            receiptLabel.Text += $"\n{tab}Total:{tab}{total.ToString("C")}\n";
+            receiptLabel.Text += $"\n{tab}Total:{tab}   {total.ToString("C")}\n";
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
@@ -211,11 +211,11 @@ namespace The_Aperture_Gift_Shop_Summative
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
-            receiptLabel.Text += $"\n{tab}Change owed:{tab}{changeOwed.ToString("C")}\n";
+            receiptLabel.Text += $"\n{tab}Change owed:    {changeOwed.ToString("C")}\n";
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
-            receiptLabel.Text += $"\n Have a nice day and remember:\n\nthere is always cake at the end and it is not a lie!";
+            receiptLabel.Text += $"\nHave a nice day and remember:\n\nthere is always cake at the end and it is not a lie!";
             Thread.Sleep(800);
             receiptLabel.Refresh();
 
